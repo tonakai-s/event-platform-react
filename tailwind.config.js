@@ -4,9 +4,14 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
+    screens: {
+      'mlg': {'max': '1024px'},
+      'mlm': {'max': '420px'}
+    },
     extend: {
-      backgroudImage: {
-        blur: "url(/src/assets/blur-background.png)"
+      backgroundImage: {
+        'reactLogo': "url(/src/assets/react-bg-logo.png)",
+        'blur': "url(/src/assets/blur-background.png)"
       },
       fontFamily: {
         sans: 'Roboto, sans-serif',
