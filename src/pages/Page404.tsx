@@ -1,5 +1,3 @@
-import { ReactIcon } from "../components/ReactIcon"
-
 export function Page404() {
     return (
         <div className="w-full h-screen">
