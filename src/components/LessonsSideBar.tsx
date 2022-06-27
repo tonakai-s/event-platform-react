@@ -14,10 +14,10 @@ export function LessonsSideBar(){
                 {data?.lessons.map(lesson => {
                     return(
                         <Lesson
-                            key={lesson.id}
+                            key={ lesson.id }
                             title={ lesson.title }
                             slug={ lesson.slug }
-                            availableAt={new Date(lesson.availableAt)}
+                            availableAt={ new Date(lesson.availableAt) }
                             type={lesson.lessonType}
                         />
                     )
