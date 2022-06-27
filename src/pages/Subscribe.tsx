@@ -37,7 +37,7 @@ export function Subscribe(){
 
 
     return(
-        <div className="min-h-screen bg-blur bg-no-repeat flex flex-col items-center relative overflow-hidden">
+        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center relative overflow-hidden">
             <div className="bg-reactLogo bg-no-repeat block absolute w-[654px] h-[575px] top-0 mx-auto"></div>
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto z-10 px-3
                             mlg:flex-col mlm:px-0">
