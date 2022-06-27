@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Event } from "./pages/Event";
-import { Page404 } from "./pages/page404";
+import { Page404 } from "./pages/Page404";
 import { Subscribe } from "./pages/Subscribe";
 
 export function Router(){
